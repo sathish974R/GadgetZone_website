@@ -94,7 +94,7 @@ export default function Newsletter() {
             rowGap: 10,
           }}
         >
-          {["4.9★ on Google","82K YouTube Subs","50K Email Readers"].map((s,i) => (
+          {["4.9★ on Google","85K YouTube Subs","50K Email Readers"].map((s,i) => (
             <motion.div key={i}
               initial={{ opacity:0, y:10 }} animate={inView ? { opacity:1, y:0 } : {}} transition={{ delay:0.4+i*0.1 }}
               style={{ fontSize:"0.75rem", fontWeight:600, color:"#5a6882" }}

@@ -55,7 +55,7 @@ export default function Hero() {
           }}
         >
           <span style={{ width:7, height:7, borderRadius:"50%", background:"#ff6b00", animation:"pulse 1.8s infinite" }}/>
-          India's #1 Tech Affiliate Channel · 82K Subscribers
+          India's #1 Tech Affiliate Channel · 85K Subscribers
         </motion.div>
 
         {/* Giant Bebas headline */}

@@ -133,17 +133,17 @@ export const CATEGORIES = ["All", "Laptops", "Audio", "Phones", "Accessories", "
 
 export const STATS = [
   { val: "250+", label: "Products Tested" },
-  { val: "82K",  label: "YouTube Subs"   },
+  { val: "85K",  label: "YouTube Subs"   },
   { val: "4.9",  label: "Avg Rating"     },
   { val: "₹12Cr", label: "Deals Saved"  },
 ];
 
-export const YOUTUBE_CHANNEL = "https://youtube.com/@GedgetZonezproztv";
+export const YOUTUBE_CHANNEL = "https://www.youtube.com/@GadgetZoneProTV";
 
 export const VIDEOS = [
-  { title: "Best Budget Laptops 2026 — Top 5 Under ₹50K", views: "48K", time: "3 days ago", dur: "14:32", tag: "Laptops", hot: true },
-  { title: "Sony WH-1000XM5 vs AirPods Max — Which Wins?", views: "72K", time: "1 week ago", dur: "09:15", tag: "Audio",   hot: false },
-  { title: "My Complete Desk Setup 2026 — Everything Linked!", views: "130K", time: "2 weeks ago", dur: "22:07", tag: "Setup", hot: true },
+  { title: "Top 5 Budget Laptops 2026 — Best Value Picks Under ₹50K", views: "48K", time: "3 days ago", dur: "14:32", tag: "Laptops", hot: true },
+  { title: "Sony WH-1000XM5 Review — Best Noise Cancelling Headphones?", views: "72K", time: "1 week ago", dur: "09:15", tag: "Audio",   hot: false },
+  { title: "Ultimate Desk Setup Tour 2026 — Every Gadget Linked!", views: "130K", time: "2 weeks ago", dur: "22:07", tag: "Setup", hot: true },
 ];
 
 export const CHART_DATA = [

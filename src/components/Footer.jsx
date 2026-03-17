@@ -12,11 +12,14 @@ export default function Footer() {
           </p>
         </div>
         <div className="footer-links">
-          {["Privacy Policy", "Disclosure", "Contact Us", "YouTube"].map((l) => (
+          {["Privacy Policy", "Disclosure", "Contact Us"].map((l) => (
             <a key={l} href="#" className="footer-link">
               {l}
             </a>
           ))}
+          <a href={YOUTUBE_CHANNEL} target="_blank" rel="noopener noreferrer" className="footer-link">
+            YouTube
+          </a>
         </div>
       </div>
       <div className="footer-bottom">

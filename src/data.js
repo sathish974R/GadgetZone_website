@@ -138,6 +138,8 @@ export const STATS = [
   { val: "₹12Cr", label: "Deals Saved"  },
 ];
 
+export const YOUTUBE_CHANNEL = "https://www.youtube.com/@GedgetZoneProTV";
+
 export const VIDEOS = [
   { title: "Best Budget Laptops 2026 — Top 5 Under ₹50K", views: "48K", time: "3 days ago", dur: "14:32", tag: "Laptops", hot: true },
   { title: "Sony WH-1000XM5 vs AirPods Max — Which Wins?", views: "72K", time: "1 week ago", dur: "09:15", tag: "Audio",   hot: false },

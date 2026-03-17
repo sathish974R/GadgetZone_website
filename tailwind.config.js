@@ -5,8 +5,8 @@ export default {
     extend: {
       fontFamily: {
         display: ['"Bebas Neue"', 'cursive'],
-        heading: ['"Clash Display"', '"Plus Jakarta Sans"', 'sans-serif'],
-        body: ['"Cabinet Grotesk"', '"Plus Jakarta Sans"', 'sans-serif'],
+        heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+        body: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
     },
   },

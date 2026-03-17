@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { VIDEOS } from "../data.js";
+import { VIDEOS, YOUTUBE_CHANNEL } from "../data.js";
 import { OrangeLabel } from "./Shared.jsx";
 
 export default function YouTubeSection() {
@@ -44,7 +44,7 @@ export default function YouTubeSection() {
           {VIDEOS.map((v, i) => (
             <motion.a
               key={i}
-              href="https://youtube.com/@GadgetZone"
+              href={YOUTUBE_CHANNEL}
               target="_blank" rel="noopener noreferrer"
               initial={{ opacity:0, y:40 }}
               animate={inView ? { opacity:1, y:0 } : {}}
@@ -135,7 +135,7 @@ export default function YouTubeSection() {
           initial={{ opacity:0 }} animate={inView ? { opacity:1 } : {}} transition={{ delay:0.5 }}
           style={{ textAlign:"center", marginTop:36 }}
         >
-          <a href="https://youtube.com/@GadgetZone" target="_blank" rel="noopener noreferrer"
+          <a href={YOUTUBE_CHANNEL} target="_blank" rel="noopener noreferrer"
             style={{
               display:"inline-flex", alignItems:"center", gap:8,
               border:"1px solid rgba(239,68,68,0.3)", color:"#ef4444",

@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { STATS } from "../data.js";
+import { STATS, YOUTUBE_CHANNEL } from "../data.js";
 import { Counter } from "./Shared.jsx";
 
 export default function Hero() {
@@ -112,7 +112,7 @@ export default function Hero() {
             <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
             Browse Top Deals
           </motion.a>
-          <motion.a href="#youtube"
+          <motion.a href={YOUTUBE_CHANNEL} target="_blank" rel="noopener noreferrer"
             style={{
               display:"flex", alignItems:"center", gap:8, textDecoration:"none",
               border:"1px solid rgba(255,255,255,0.1)", color:"#8a9ab8",
